@@ -1,7 +1,7 @@
 ---
 title: "TreeGen: File tree generator for research data" 
 author: 
-  - name: "Research Data Curation Team"
+  - name: "Curation Services Team"
     affiliation: "Digital Research Alliance of Canada"
     email: "rdm-gdr@alliancecan.ca"
 date: "Version 1, April 2025"
@@ -105,7 +105,7 @@ Click **Select Directory** and choose the folder you wish to document. The file 
 
 ### 3. Add descriptions
 
-Double-click on the **Description** column to annotate/descripbe any file or folder. Descriptions are automatically saved in a hidden `.descriptions.json` file.
+Double-click on the **Description** column to annotate/describe any file or folder. Descriptions are automatically saved in a hidden `.descriptions.json` file.
 
 ::: {.callout-tip}
 Provide a simple description that shows the contents of the file. In addition, use README files or [codebooks](https://alliance-rdm-gdr.github.io/RDM_Codebook_App/) to provide specific information, including context, methods, and description of variables. 
@@ -152,7 +152,7 @@ MyDataset
 
 ## About / Support
 
-TreeGen was developed and is maintained by the curation team of the Federated Research Data Repository [(FRDR)](https://www.frdr-dfdr.ca/repo/).
+TreeGen was developed and is maintained by the curation team of the [Digital Research Alliance of Canada](https://alliancecan.ca/en).
 
 For questions or suggestions, contact us at rdm-gdr@alliancecan.ca.
 
