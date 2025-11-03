@@ -8,7 +8,7 @@ This repository contains educational materials developed by the **Research Data 
 
 ### `RDM_Codebook`  
 
-[English](https://alliance-rdm-gdr.github.io/RDM_OnePagers/RDM_Codebook_en.html) and [French](https://alliance-rdm-gdr.github.io/RDM_OnePagers/RDM_Codebook_fr.html) documents providing guidance on how to create effective codebooks for research datasets, and links to tools such as a codebook generator app.
+[English](https://alliance-rdm-gdr.github.io/CUR_Res_OnePagers/RDM_Codebook_en.html) and [French](https://alliance-rdm-gdr.github.io/CUR_Res_OnePagers/RDM_Codebook_fr.html) documents providing guidance on how to create effective codebooks for research datasets, and links to tools such as a codebook generator app.
 
 ➡️ [Codebook generator Web-App](https://alliance-rdm-gdr.github.io/RDM_Codebook_App/)  
 📚 Topics: Metadata, Codebooks, Data Dictionaries, Research Data Management, Data Sharing, RDM
@@ -25,7 +25,7 @@ A poster-style Quarto document in [English](https://github.com/Alliance-RDM-GDR/
 
 ### `RDM_TreeGen`  
 
-[English](https://alliance-rdm-gdr.github.io/RDM_OnePagers/RDM_TreeGen_en.html) and [French](https://alliance-rdm-gdr.github.io/RDM_OnePagers/RDM_TreeGen_fr.html) documents providing guidance on how to use the file tree generator [(TreeGen)](https://github.com/Alliance-RDM-GDR/RDM_FileTree) for documenting datasets.
+[English](https://alliance-rdm-gdr.github.io/CUR_Res_OnePagers/RDM_TreeGen_en.html) and [French](https://alliance-rdm-gdr.github.io/CUR_Res_OnePagers/RDM_TreeGen_fr.html) documents providing guidance on how to use the file tree generator [(TreeGen)](https://github.com/Alliance-RDM-GDR/RDM_FileTree) for documenting datasets.
 
 📚 Topics: File tree, Research Data Management, Reproducibility, Open Science, Data Sharing
 
