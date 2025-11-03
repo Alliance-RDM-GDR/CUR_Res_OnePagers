@@ -46,28 +46,28 @@ css: "styles/RDM_Codebook_styles.css"
 
 ## Codebooks / data dictionaries
 
-Also known as data dictionaries, codebooks are essential to describe the contents, structure, and layout of a dataset. This ensures porper documentation, and further understing and reuse by other researchers as a reference for data analysis and interpretation.
+Also known as data dictionaries, codebooks are essential to describe the contents, structure, and layout of a dataset. This ensures proper documentation, and further understanding and reuse by other researchers as a reference for data analysis and interpretation.
 
 ## Key Components of a Codebook
 
-As a document (table level) artifact, a codebook defines as clear as posible the varibles of a dataset. Please consider the following attributes:
+As a document (table level) artifact, a codebook defines the variables of a dataset as clearly as possible. Please consider the following attributes:
 
 ::: {.box}
 - **Variable Name:** A unique identifier for the variable name on the data table (e.g., *EMPLOY1* or *VAR001*).
 
-- **Variable Label:** A brief disciplinary description of the variable (e.g., "*Employment Statu*s").
+- **Variable Label:** A brief disciplinary description of the variable (e.g., "*Employment Status*").
 
-- **Varible type:** Indicates the type of variable (e.g *numeric, integrer, charcater, bolean*).
+- **Variable type:** Indicates the type of variable (e.g *numeric, integer, character, boolean*).
 
-- **Ranges or labels:** Contains the reange or variable leveld depending on the type (e.g "*0-100*", "*Levels = A1, A2, A3*".).
+- **Ranges or labels:** Contains the range or variable levels depending on the type (e.g "*0-100*", "*Levels = A1, A2, A3*".).
 
 - **Missing values:** Indicates the number (if any) of missing variables for each column.
 
-- **Units:** Measurement units for the variable (e.g., "*centimerters*", "*squared meters*").
+- **Units:** Measurement units for the variable (e.g., "*centimeters*", "*squared meters*").
 :::
 
 ::: {.callout-tip}
-Depending on the discpline, more attributes could be describe to make the dataset understandable. Crystal Lewis offer [codebooks examples](https://osf.io/925sh).
+Depending on the discpline, more attributes could be described to make the dataset understandable. Crystal Lewis offers [codebook examples](https://osf.io/925sh).
 :::
 
 ## How to create a codebook 
@@ -75,10 +75,10 @@ Depending on the discpline, more attributes could be describe to make the datase
 Creating codebooks is a good research practice that should be implemented during the research process. Keep the format as simple as possible. The web-based [codebook generator](https://alliance-rdm-gdr.github.io/RDM_Codebook_App/) allows the user to download a .CSV codebook derived from a given data table.
 
 
-# Example of codebook
+# Example of a codebook
 
 ::: {style="text-align: left; font-size: 80%"}
-| **Variable**  | **Label**          |**type**  | **Range-Levels**| **Missing values**| **units** |
+| **Variable**  | **Label**          |**Type**  | **Range-Levels**| **Missing values**| **Units** |
 |---------------|--------------------|----------------------------|-------------------|-----------|
 | Stage         | Experimental stage | Factor   |1, 2, 3, 4       |NA                 |NA         |
 | Intervention  | Intervention Group | Factor   |G1, G2, G3       |NA                 |NA         |

@@ -129,7 +129,7 @@ Project/
 :::::
 
 
-## **Implement comprenhensive metadata** 
+## **Implement comprehensive metadata** 
 
 ::::: {layout-ncol="2" nrow=2}
 :::: {#first-column width="70%"}
