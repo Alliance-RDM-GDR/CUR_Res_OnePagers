@@ -17,7 +17,7 @@ This repository contains educational materials developed by the **Research Data 
 
 ### `RDM_Organize-Deposit`  
 
-A poster-style Quarto document in [English](https://github.com/Alliance-RDM-GDR/RDM_OnePagers/blob/main/PDFs/RDM_Organize-Deposit_en.pdf) and [French](https://github.com/Alliance-RDM-GDR/RDM_OnePagers/blob/main/PDFs/RDM_Organize-Deposit_fr.pdf), illustrating the research data lifecycle, and best practices for making research data understandable, reproducible, and shareable.
+A poster-style Quarto document in [English](https://github.com/Alliance-RDM-GDR/CUR_Res_OnePagers/blob/main/PDFs/RDM_Organize-Deposit_en.pdf) and [French](https://github.com/Alliance-RDM-GDR/CUR_Res_OnePagers/blob/main/PDFs/RDM_Organize-Deposit_fr.pdf), illustrating the research data lifecycle, and best practices for making research data understandable, reproducible, and shareable.
 
 📚 Topics: Research Data Management, Reproducibility, Open Science, Data Sharing
 

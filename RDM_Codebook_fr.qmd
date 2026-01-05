@@ -45,35 +45,35 @@ css: "styles/RDM_Codebook_styles.css"
 :::
 
 
-## livres de code / Dictionnaires de données
+## Dictionnaires de données (codebooks) 
 
-Aussi appelés dictionnaires de données, les livres de code sont essentiels pour décrire le contenu, la structure et l'organisation d’un ensemble de données. Ils garantissent une documentation adéquate et facilitent la compréhension et la réutilisation des données par d'autres chercheurs, en servant de référence pour l’analyse et l’interprétation.
+Également appelés dictionnaires de données, les codebooks sont essentiels pour décrire le contenu, la structure et l’organisation d’un jeu de données. Ils permettent d’assurer une documentation adéquate et facilitent la compréhension ainsi que la réutilisation des données par d’autres chercheurs, notamment à des fins d’analyse et d’interprétation.
 
-## Principaux éléments d'un livre de codes
+## Composantes clés d’un dictionnaire de données
 
-En tant qu’artéfact documentaire (au niveau des tableaux), un livre de code définit les variables d’un ensemble de données aussi clairement que possible. Veuillez prendre en compte les attributs suivants :
+Un dictionnaire de données, en tant qu’artefact documentaire (sur un tableau), vise à définir de manière aussi précise que possible les variables d’un jeu de données. Il convient de prendre en compte les éléments suivants :
 
 ::: {.box}
-- **Nom de la variable :** Un identifiant unique correspondant au nom de la variable dans le tableau de données (ex. *EMPLOY1* ou *VAR001*).
+- **Nom de la variable :** Identifiant unique de la variable dans la table de données (ex. *EMPLOY1* ou *VAR001*).
 
-- **Libellé de la variable :** Une brève description disciplinaire de la variable (ex. "*Statut d'emploi*").
+- **Libellé de la variable :** brève description disciplinaire de la variable (ex. "*Statut d'emploi*").
 
-- **Type de variable :** Indique le type de variable (ex. *numérique, entier, caractère, booléen*).
+- **Type de variable :** précise la nature de la variable, par exemple numérique, entière, textuelle ou booléenne.
 
-- **Plages ou niveaux :** Indique l’étendue ou les niveaux de la variable selon son type (ex. "*0-100*", "*Niveaux = A1, A2, A3*").
+- **Plages ou niveaux :** valeurs possibles ou niveaux associés à la variable (ex. "*0-100*", "*Niveaux = A1, A2, A3*").
 
-- **Valeurs manquantes :** Indique le nombre (le cas échéant) de valeurs manquantes pour chaque colonne.
+- **Valeurs manquantes :** indique les valeurs manquantes (le cas échéant) pour chaque variable.
 
-- **Unités :** Unités de mesure associées à la variable (ex. "*centimètres*", "*mètres carrés*").
+- **•	Unités de mesure :** Unités de mesure associées à la variable (ex. "*centimètres*", "*mètres carrés*").
 :::
 
 ::: {.callout-tip}
-En fonction de la discipline, d'autres attributs peuvent être décrits pour rendre l'ensemble de données compréhensible. Crystal Lewis propose des [exemples de livres de codes](https://osf.io/925sh).
+Selon la discipline, d’autres attributs peuvent être ajoutés afin de rendre le jeu de données pleinement compréhensible. Crystal Lewis propose plusieurs [exemples de dictionnaires de données](https://osf.io/925sh).
 :::
 
 ## Comment créer un codebook
 
-Créer des livres de code est une bonne pratique de recherche qui devrait être mise en place dès le début du processus de recherche. Il est recommandé d’utiliser un format simple et clair. Le [générateur de livre de codes](https://alliance-rdm-gdr.github.io/RDM_Codebook_App/) basé sur le web permet à l'utilisateur de télécharger un livre de codes au format CSV dérivé d'un tableau de données donné.
+La création d’un dictionnaire de données constitue une bonne pratique de recherche et devrait être intégrée tout au long du processus de recherche. Il est recommandé d’en conserver une structure aussi simple que possible. [L’outil Web de génération de codebooks](https://alliance-rdm-gdr.github.io/RDM_Codebook_App/) permet de produire un dictionnaire de données au format CSV à partir d’un jeu de données donné.
 
 
 # Exemple de livre de code
@@ -81,17 +81,17 @@ Créer des livres de code est une bonne pratique de recherche qui devrait être 
 ::: {style="text-align: left; font-size: 80%"}
 | **Variable**  | **Libellé**          | **Type**  | **Plage-Niveaux** | **Valeurs manquantes** | **Unités** |
 |--------------|-----------------------|-----------|-------------------|------------------------|------------|
-| Stage        | Stade expérimental    | Facteur   | 1, 2, 3, 4        | NA                     | NA         |
-| Intervention | Groupe d’intervention | Facteur   | G1, G2, G3        | NA                     | NA         |
+| Stage        | Stade expérimental    | Facteur   | 1, 2, 3, 4        | —                      | —          |
+| Intervention | Groupe d’intervention | Facteur   | G1, G2, G3        | —                      | —          |
 | Âge          | Âge du participant    | Numérique | 18-26             | 1                      | Années     |
-| Sexe         | Sexe biologique       | Facteur   | Homme, Femme      | NA                     | NA         |
-| Score        | Score cognitif        | Numérique | 1-20              | NA                     | AU         |
+| Sexe         | Sexe biologique       | Facteur   | Homme, Femme      | —                      | —          |
+| Score        | Score cognitif        | Numérique | 1-20              | —                      | AU         |
 :::
 
 
 ::: {.callout-tip}
-## Engagement pour une science reproductible
-Les livres de code sont essentiels pour la transparence de la recherche, la reproductibilité et la préservation à long terme des données. 
+## Engagement en faveur de la science reproductible :
+ Les dictionnaires de données jouent un rôle essentiel dans la transparence de la recherche, la reproductibilité des résultats et la préservation à long terme des données. 
 :::
 
 ::: {style="text-align: center;font-size: 150%"}
